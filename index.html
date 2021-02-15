@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Miguel Castillo Formulario</title>
+    </head>
+    <body>
+        <h1>Formulari sobre Items de soporte de LoL</h1>
+        <Form>
+            <h3>Nombre de Imbocador:</h3><input type="text" id="email" name="email" size="40"/>
+            <br/><br/>
+            <h3>Contraseña</h3><input type="password" id="clave" name="clave" size="20"/>
+            <br/><br/>
+            <h3>¿Que tipo de soportes usas?</h3>
+            <input type="checkbox" name="Clase" value="IniciadoresTanques">Iniciadores Tanques (Ej: Leona)
+            <input type="checkbox" name="Clase" value="IniciadoresNoTanques">Iniciadores No Tanques (Ej: Pyke)
+            <input type="checkbox" name="Clase" value="Peeler">Peeler (Ej: Lulu)
+            <input type="checkbox" name="Clase" value="Healer">Healer (Ej: Soraka)
+            <input type="checkbox" name="Clase" value="MagosFullAP">Magos full AP (Ej: Brand)
+            <br/><br/>
+            <h3>¿Desde cuando juegas LoL?</h3>>
+            <input type="radio" id="Beta" value="Beta" name="tiempo"/>Desde la Beta o primera Season
+            <input type="radio" id="S2_5" value="S2_5" name="tiempo"/>Desde entre la S2 y la 5
+            <input type="radio" id="S6_9" value="S6_9" name="tiempo"/>Desde entre la S6 y la 9
+            <input type="radio" id="S10" value="S10" name="tiempo"/>Desde la S10 o menos 
+            <br/><br/>
+            <h3>¿Cual considera que es e item de support que mas necesita un buff?</h3>
+            <select name="Item">
+                <optgroup label="Mitico">
+                    <option selected="selected">Relicario de los Solaris de Hierro</option>
+                    <option>Renovador de Piedra Lunar</option>
+                    <option>Mandato Imperial</option>
+                    <option>Canto de Gerra de Shyrelya</option>
+                </optgroup>
+                <optgroup label="Lejendario (Normal)">
+                    <option>Convergencia de Zeke</option>
+                    <option>Promesa del Caballero</option>
+                    <option>Baculo de Agua Fluyente</option>
+                    <option>Pebetero Ardiente</option>
+                    <option>Redencion</option>
+                    <option>Putrificador Quimtech</option>
+                    <option>Bendicion de Mikael</option>
+                </optgroup>
+                <optgroup label="Legendario (Vision: Evolucion del Inicial)">
+                    <option>Fragmento de Hielo Puro</option>
+                    <option>Guadaña de Nieba Oscura</option>
+                    <option>Baluarte de la Montaña</option>
+                    <option>Hombreras de Roca Blanca</option>
+                </optgroup>
+                <optgroup label="Legendario (Vision: Piedravigia)">
+                    <option>Piedravigia Alerta</option>
+                </optgroup>
+            </select>
+            <br/><br/>
+            <h3>¿Cual considera que es e item de support que mas necesita un nerf?</h3>
+            <select name="Item">
+                <optgroup label="Mitico">
+                    <option selected="selected">Relicario de los Solaris de Hierro</option>
+                    <option>Renovador de Piedra Lunar</option>
+                    <option>Mandato Imperial</option>
+                    <option>Canto de Gerra de Shyrelya</option>
+                </optgroup>
+                <optgroup label="Lejendario (Normal)">
+                    <option>Convergencia de Zeke</option>
+                    <option>Promesa del Caballero</option>
+                    <option>Baculo de Agua Fluyente</option>
+                    <option>Pebetero Ardiente</option>
+                    <option>Redencion</option>
+                    <option>Putrificador Quimtech</option>
+                    <option>Bendicion de Mikael</option>
+                </optgroup>
+                <optgroup label="Legendario (Vision: Evolucion del Inicial)">
+                    <option>Fragmento de Hielo Puro</option>
+                    <option>Guadaña de Nieba Oscura</option>
+                    <option>Baluarte de la Montaña</option>
+                    <option>Hombreras de Roca Blanca</option>
+                </optgroup>
+                <optgroup label="Legendario (Vision: Piedravigia)">
+                    <option>Piedravigia Alerta</option>
+                </optgroup>
+            </select>
+            <br/><br/>
+            <h3>¿Que agragarias a la encuasta?</h3>
+            <textarea rows="10" cols="100" name="comentario"></textarea>
+            <br/><br/>
+            <h3>En caso de necesitar adjuntar algo sientase libre de hacerlo</h3><input type="file" id="identificador" value="valor" name="nombre"/>
+        </Form>
+    </body>
+</html>
